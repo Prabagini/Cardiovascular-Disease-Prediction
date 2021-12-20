@@ -109,14 +109,14 @@ Physical activity is key to improve the health.It shows that patients without ca
 The data was split into training and testing data and the training data was scaled using Standard Scaler.
 
 
-The models were built without any hyperparameter tuning. These models include:
+- The models were built without any hyperparameter tuning. These models include:
 
-Logistic Regression
-Random Forest
-Support Vector Machines
-K-Nearest Neighbor
-Decision Tree
-XGBoost
+- Logistic Regression
+- Random Forest
+- Support Vector Machines
+- K-Nearest Neighbor
+- Decision Tree
+- XGBoost
 
 The models were run and their results saved into a DataFrame.
 
