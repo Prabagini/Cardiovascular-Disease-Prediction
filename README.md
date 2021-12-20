@@ -132,6 +132,7 @@ GS Logistic Regression Classification Report
 
     accuracy                           0.71     13683
    macro avg       0.72      0.71      0.71     13683
+   
 weighted avg       0.72      0.71      0.71     13683
 
 ![graph1](Images/tuned-logreg.png)
