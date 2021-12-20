@@ -109,14 +109,14 @@ Physical activity is key to improve the health.It shows that patients without ca
 The data was split into training and testing data and the training data was scaled using Standard Scaler.
 
 
-- The models were built without any hyperparameter tuning. These models include:
+The models were built without any hyperparameter tuning. These models include:
 
-- Logistic Regression
-- Random Forest
-- Support Vector Machines
-- K-Nearest Neighbor
-- Decision Tree
-- XGBoost
+Logistic Regression
+Random Forest
+Support Vector Machines
+K-Nearest Neighbor
+Decision Tree
+XGBoost
 
 The models were run and their results saved into a DataFrame.
 
@@ -147,7 +147,6 @@ RS Decision Tree Classification Report
 
     accuracy                           0.72     13683
    macro avg       0.72      0.72      0.72     13683
-   
 weighted avg       0.72      0.72      0.72     13683
 
 ![graph1](Images/tuned-decisiontree.png)
@@ -162,7 +161,6 @@ RS XGBoost Classification Report
 
     accuracy                           0.72     13683
    macro avg       0.72      0.72      0.72     13683
-   
 weighted avg       0.72      0.72      0.72     13683
 
 
@@ -178,7 +176,6 @@ RS Random Forest Classification Report
 
     accuracy                           0.72     13683
    macro avg       0.72      0.72      0.72     13683
-   
 weighted avg       0.72      0.72      0.72     13683
 
 ![graph1](Images/tuned-random-forest.png)
@@ -193,21 +190,27 @@ GS KNN Classification Report
 
     accuracy                           0.72     13683
    macro avg       0.72      0.72      0.72     13683
-   
 weighted avg       0.72      0.72      0.72     13683
 
 ![graph1](Images/tuned-knn.png)
 
 
+![graph1](Images/roc-curve.png)
+
+### Interpret
+
+![graph1](Images/results.png)
+
 Looking at F1 score (conveys the balance between the precision and the recall) and false negatives are so important to this prediction. We can see that the hyperparameter tuned XG Boost model was able to predict the most True Positive and fewest false negatives. It has the highest F1 score and testing and training accuracy are very similar.
 
-![graph1](Images/roc-curve.png)
+
 
 ### Feature Importance 
 
 The systolic reading is by far the most important feature in predicting cardiovascular disease. Having a cholesterol well above normal, and a person's age are the second and third most important features, respectively.
 
 ![graph1](Images/feat-imp-xgb.png)
+
 
 
 ## Conclusion
