@@ -147,6 +147,7 @@ RS Decision Tree Classification Report
 
     accuracy                           0.72     13683
    macro avg       0.72      0.72      0.72     13683
+   
 weighted avg       0.72      0.72      0.72     13683
 
 ![graph1](Images/tuned-decisiontree.png)
@@ -161,6 +162,7 @@ RS XGBoost Classification Report
 
     accuracy                           0.72     13683
    macro avg       0.72      0.72      0.72     13683
+   
 weighted avg       0.72      0.72      0.72     13683
 
 
@@ -176,6 +178,7 @@ RS Random Forest Classification Report
 
     accuracy                           0.72     13683
    macro avg       0.72      0.72      0.72     13683
+   
 weighted avg       0.72      0.72      0.72     13683
 
 ![graph1](Images/tuned-random-forest.png)
@@ -190,6 +193,7 @@ GS KNN Classification Report
 
     accuracy                           0.72     13683
    macro avg       0.72      0.72      0.72     13683
+   
 weighted avg       0.72      0.72      0.72     13683
 
 ![graph1](Images/tuned-knn.png)
