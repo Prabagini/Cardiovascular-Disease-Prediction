@@ -194,8 +194,11 @@ weighted avg       0.72      0.72      0.72     13683
 
 ![graph1](Images/tuned-knn.png)
 
+### ROC Curve
 
 ![graph1](Images/roc-curve.png)
+
+While most of the tuned models perform similarly, the tuned XGBoost again slightly outperforms the other models.
 
 ### Interpret
 
