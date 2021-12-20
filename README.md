@@ -204,14 +204,6 @@ The systolic reading is by far the most important feature in predicting cardiova
 
 ![graph1](Images/feat-imp-xgb.png)
 
-### Deep Neural Network
-
-From the neural network, model accuracy score is 73%. Model loss function for both train set and test set is 54%. The loss function in more. 
-
-![graph1](Images/model-acc.png)
-
-![graph1](Images/model-loss.png)
-
 
 ## Conclusion
 
