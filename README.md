@@ -101,14 +101,13 @@ Individual with higher body mass index is affected with cardiovascular disease. 
 The data was split into training and testing data and the training data was scaled using Standard Scaler.
 
 
-The models were built without any hyperparameter tuning. These models include:
+- The models were built without any hyperparameter tuning. These models include:
 
-Logistic Regression
-Random Forest
-Support Vector Machines
-K-Nearest Neighbor
-Decision Tree
-XGBoost
+- Logistic Regression
+- Random Forest
+- K-Nearest Neighbor
+- Decision Tree
+- XGBoost
 
 The models were run and their results saved into a DataFrame.
 
@@ -123,6 +122,7 @@ GS Logistic Regression Classification Report
            1       0.68      0.79      0.73      6840
 
     accuracy                           0.71     13683
+    
    macro avg       0.72      0.71      0.71     13683
    
 weighted avg       0.72      0.71      0.71     13683
