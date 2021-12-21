@@ -96,14 +96,6 @@ BodyMassIndex(BMI)
 
 Individual with higher body mass index is affected with cardiovascular disease. BMI plays an important role in heart disease.
 
-
-### Activity
-
-Physical activity is key to improve the health.It shows that patients without cardiovascular disease has same BMI, regardless of whether they are being active or not. Regular physical activity is proven to help prevent and manage noncommunicable diseases such as heart disease, stroke, diabetes and several cancers.
-
-![graph1](Images/activity.png)
-
-
 ### Modeling
 
 The data was split into training and testing data and the training data was scaled using Standard Scaler.
