@@ -59,21 +59,21 @@ There are 3 types of input features
 
 Age column were converted from days to years.  we converted Ages into specific age categories. people's age ranging from 50 - 60 has more number of cardiovascular disease. people with the age between 30 - 40 are less likely affected from the disease.
 
-![graph1](Images/Age-of-patients-cvd.png)
+![graph1](Images/age.png)
 
 
 ### Cholesterol
 
 people with above normal and well above normal condition are highly affected by cardiovascular disease.Cholesterol levels "above normal" and "well above normal" increase an chance of being diagnosed with cardiovascular disease. However, having "normal" cholesterol levels does not decrease your chances. There are many people with normal cholesterol levels and affected by cardiovascular disease.
 
-![graph1](Images/cholesterol-cardio-disease.png)
+![graph1](Images/chol.png)
 
 
 ### Glucose
 
 Glucose is the main type of sugar in the blood and is the major source of energy for the body's cells. Those with glucose levels "Above normal" or "Well above normal" were diagnosed with CVD more often than with normal glucose level.
 
-![graph1](Images/glucose-cvd.png)
+![graph1](Images/gluc.png)
 
 ### BMI
 
@@ -92,7 +92,7 @@ BodyMassIndex(BMI)
 - Type 2 35 - 39.9
 - Type 3. >=40
 
-![graph1](Images/bmi.png)
+![graph1](Images/BMI.png)
 
 Individual with higher body mass index is affected with cardiovascular disease. BMI plays an important role in heart disease.
 
